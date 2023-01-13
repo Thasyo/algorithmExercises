@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <script src="js/script.js" defer></script>
+    <style>
+        form{
+
+            width: 200px;
+
+        }
+
+        form div{
+
+            margin: 20px 0px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        form div label{
+
+            margin-bottom: 5px;
+        
+        }
+
+    </style>
+</head> 
+<body>
+    <h1>Produtos</h1>
+    <form>
+        <div>
+            <label for="productName">Nome</label>
+            <input type="text" id="productName">
+        </div>
+        <div>
+            <label for="productPrice">Preço</label>
+            <input type="number" id="productPrice">
+        </div>
+        <div>
+            <label for="productAmount">Quantidade</label>
+            <input type="number" id="productAmount">
+        </div>
+
+        <button type="submit" id="btn-form">calcular</button>
+    </form>
+</body>
+</html>
